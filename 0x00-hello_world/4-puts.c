@@ -2,7 +2,7 @@
 
 /**
  * main - Entry point
- * prints "\"Programming is like building a multilingual puzzle"
+ * Description : prints "\"Programming is like building a multilingual puzzle"
  * program return 0
  */
 
