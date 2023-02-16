@@ -1,8 +1,8 @@
 #include <stdio.h>
 
 	/*
-	 * this script ill print "    "Programming is like building a multilingual puzzle   "
-	 * printf is not allowed to use
+	 * this script ill print "    "Programming is like building a multilingual puzzle
+	 * not allowed to use printf
 	 * program should end with the value 0
 	 */
 
