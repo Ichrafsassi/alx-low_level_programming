@@ -4,7 +4,7 @@
  * Description: prints 'Holberton \n'
  * Return: Always 0 (success)
  */
-int main(void)
+int main.h(void)
 {
 char str[] = "Holberton\n";
 int i = 0;
