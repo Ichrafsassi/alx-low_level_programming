@@ -1,8 +1,8 @@
 #include "main.h"
 /**
- * main - Entry point
- * Description: prints 'Holberton \n'
- * Return: Always 0 (success)
+ * main - main function
+ * Description: prints '_putcharn \n'
+ * Return: Always 0
  */
 int main(void)
 {
@@ -12,7 +12,7 @@ int main(void)
 	_putchar('t');
 	_putchar('c');
 	_putchar('h');
-	_putchar('a');
+	_putchar('a');
 	_putchar('r');
 	_putchar('\n');
 
