@@ -1,25 +1,30 @@
-#include "holberton.h"
+#include "main.h"
 /**
- * _strncpy - copies a string
- * @dest: destination of copy
- * @src: source of copy
- * @n: bytes to be copied
- * Return: return copied string
+ * _strncpy - copy a string
+ * @dest: input value
+ * @src: input value
+ * @n: input value
+ *
+ * Return: dest
  */
 char *_strncpy(char *dest, char *src, int n)
 {
-char *ptr = dest;
+	int j;
 
-while (*src && n--)
-{
-*dest++ = *src++;
+
+	j = 0;
+	while (j < n && src[j] != '\0')
+	{
+		dest[j] = src[j];
+		j++;
+	}
+	while (j < n)
+	{
+		dest[j] = '\0';
+		j++;
+	}
+
+
+	return (dest);
 }
-if (!*src)
-{
-while (*dest && n--)
-{
-*dest++ = 0;
-}
-}
-return (ptr);
-}
+
