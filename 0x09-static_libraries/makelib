@@ -1,0 +1,6 @@
+#!/bin/bash
+gcc -Wall -Wextra -Werror -pedantic -std=gnu89 -fno-pic -c *.c
+ar rc libmain.a *.o
+rm *.o
+ar -t libmain.a
+nm libmain.a
