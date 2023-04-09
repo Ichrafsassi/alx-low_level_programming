@@ -1,10 +1,11 @@
 #include "main.h"
 
 /**
+ * Binary_to_unit :
  * binary_to_unit - convert from binary number to int (unsigned init)
  * @b:string contains binary number
  * x: refers to decimal value, the one will be returned
- * Return:the converted number,or 0 if there is an invalid character in the string
+ * Return:converted number x, or 0
  */
 
 unsigned int binary_to_uint(const char *b)
