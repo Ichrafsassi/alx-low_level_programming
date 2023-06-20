@@ -2,6 +2,10 @@ import random
 import ctypes
 
 cops = ctypes.CDLL('./100-operations.so')
+
+cops.div_func.restype = ctypes.c_int
+cops.div_func.argtypes = (ctypes.c_int, ctypes.c_int)
+
 a = random.randint(-111, 111)
 b = random.randint(-111, 111)
 print("{} + {} = {}".format(a, b, cops.add(a, b)))
