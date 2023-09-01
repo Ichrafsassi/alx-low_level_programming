@@ -1,6 +1,7 @@
 #!/usr/bin/python3
 """Island Perimeter."""
 
+
 def island_perimeter(grid):
     """Returns the perimeter of the island described in grid.
     """
@@ -14,10 +15,14 @@ def island_perimeter(grid):
             if grid[i][j] == 1:
                 neighbors = 0
 
-                if i > 0 and grid[i - 1][j]: neighbors += 1
-                if i < rows - 1 and grid[i + 1][j]: neighbors += 1
-                if j > 0 and grid[i][j - 1]: neighbors += 1
-                if j < cols - 1 and grid[i][j + 1]: neighbors += 1
+                if i > 0 and grid[i - 1][j]:
+                    neighbors += 1
+                if i < rows - 1 and grid[i + 1][j]:
+                    neighbors += 1
+                if j > 0 and grid[i][j - 1]:
+                    neighbors += 1
+                if j < cols - 1 and grid[i][j + 1]:
+                    neighbors += 1
 
                 count += 4 - neighbors
 
